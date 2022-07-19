@@ -20,6 +20,8 @@ public class RobotConfig {
     public static final String OUT_SHOULDER = "outShoulder";
     public static final String OUT_ELBOW = "outElbow";
     public static final String BUCKET_LID = "outGripper";
+    public static final String TURRET_MOTOR = "turretMotor";
+    public static final String WINCH = "winch";
 
     public static double ROBOT_CENTER_FROM_BACK = (2.75 + DriveConstants.TRACK_LENGTH/2) *Field.MM_PER_INCH;
     public static double ROBOT_CENTER_FROM_FRONT = (3.5 + DriveConstants.TRACK_LENGTH/2) *Field.MM_PER_INCH;
